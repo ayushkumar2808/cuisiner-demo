@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div id="header">
+        <img class="logoimg" src="./Assets/Logo.png" alt="" />
+        <h1 id="logoheading">Cuisiner</h1>
+      </div>
+    </div>
+    <div id="searchbuttondiv">
+      <img class="plateimg" src="./Assets/Plate.png" alt="" />
+      <div class="fdf">
+        <div>
+          <h1 class="tagline">Eat It Your Way.</h1>
+        </div>
+        <div>
+          <input
+            id="searchbox"
+            type="text"
+            placeholder="Search for Cuisines"
+          />
+        </div>
+        <div>
+          <button id="searchbutton" onclick="handleClick()">Search</button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text align">Your Today's Random Meal</h2>
+    </div>
+    <div id="meal-card-flex"></div>
+    <div id="modal-flex">
+      <!-- <div id="modal"> -->
+      <!-- <h3>${randomMealData.meals[0].strMeal}</h3>
+        <h4>Category: ${randomMealData.meals[0].strCategory}</h4>
+        <h4>Area: ${randomMealData.meals[0].strArea}</h4>
+        <h3>Ingredients</h3>
+        <h4></h4> -->
+      <!-- </div>  -->
+    </div>
+    <h2 id="Searchresults">Your Search Results</h2>
+    <div id="cat-search">
+      <!-- <div class="card">
+        <img
+          src="https:\/\/www.themealdb.com\/images\/media\/meals\/vptwyt1511450962.jpg"
+          alt="img"
+        />
+        <h1 class="title">Butter Chicken</h1>
+      </div> -->
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
